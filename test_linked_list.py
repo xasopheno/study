@@ -1,4 +1,3 @@
-from typing import List, Optional
 from nose2.tools import such  # type: ignore
 from linked_list import LinkedList, Node
 
