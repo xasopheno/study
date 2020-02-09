@@ -1,5 +1,3 @@
-print("hi maria")
-
 d = []
 with open("data.txt") as f:
     for line in f:
@@ -7,11 +5,6 @@ with open("data.txt") as f:
         d = [int(v) for v in d]
 
 
-# data = [1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50]
-# data = [1, 0, 0, 0, 99]
-# data = [2, 3, 0, 3, 99]
-# data = [2, 4, 4, 5, 99, 0]
-# data = [1, 1, 1, 4, 99, 5, 6, 0, 99]
 for i in range(0, 100):
     for j in range(0, 100):
         data = d.copy()
