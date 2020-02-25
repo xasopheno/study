@@ -110,17 +110,6 @@ assert BTDepth(tree) == 4
 assert BFS(tree) == [10, 7, 39, 11, 14, 16]
 
 
-def minCoins(target):
-    coins = [25, 10, 5, 1]
-    for coin in coins:
-        if coin > target:
-            continue
-
-    return 0
-
-
-print(36)
-
 # def isBST(node: Node):
 # if node.left:
 # if node.left.value > node.value:
